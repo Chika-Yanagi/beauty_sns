@@ -445,7 +445,7 @@ section {
 }
 
 .section-bg {
-  background-color: #fff;
+  background-color: #fff0f5;
 }
 
 .section-title {
@@ -614,12 +614,8 @@ section {
 /*--------------------------------------------------------------
 # Popular Post And NewPost
 --------------------------------------------------------------*/
-.popular-post {
-  background-color: #fff;
-}
-
-.new-post {
-  background-color: #fff;
+.popular-posts {
+  background-color:#fef9fb;
 }
 
 .posts-list__list {
@@ -813,4 +809,52 @@ section {
   background: #f01a2c;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# About Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  background-color: #fff0f5;
+}
+
+.about .content h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.about .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+.about .content h3 i {
+  color: #f495e9
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.about .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #f495e9;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
 }
